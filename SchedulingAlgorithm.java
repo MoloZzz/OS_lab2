@@ -2,6 +2,7 @@
 // the scheduling algorithm written by the user resides.
 // User modification should occur within the Run() function.
 
+import java.util.Comparator;
 import java.util.Vector;
 import java.io.*;
 
@@ -17,13 +18,19 @@ public class SchedulingAlgorithm {
     String resultsFile = "Summary-Processes";
 
     result.schedulingType = "Batch (Nonpreemptive)";
-    result.schedulingName = "First-Come First-Served"; 
+    result.schedulingName = "first task is the shortest";
     try {
       //BufferedWriter out = new BufferedWriter(new FileWriter(resultsFile));
       //OutputStream out = new FileOutputStream(resultsFile);
+
+
       PrintStream out = new PrintStream(new FileOutputStream(resultsFile));
       sProcess process = (sProcess) processVector.elementAt(currentProcess);
+
+
       out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.cpudone + ")");
+
+
       while (comptime < runtime) {
         if (process.cpudone == process.cputime) {
           completed++;
@@ -33,15 +40,33 @@ public class SchedulingAlgorithm {
             out.close();
             return result;
           }
+
+          //тут вибираємо порядок виконання
+          /*
           for (i = size - 1; i >= 0; i--) {
             process = (sProcess) processVector.elementAt(i);
-            if (process.cpudone < process.cputime) { 
+            if (process.cpudone < process.cputime) {
               currentProcess = i;
             }
           }
+          */
+
+
+          int shortestRemainingTime = Integer.MAX_VALUE;
+
+          for (i = 0; i < size; i++) {
+            process = (sProcess) processVector.elementAt(i);
+            if (process.cpudone < process.cputime && process.cputime - process.cpudone < shortestRemainingTime) {
+              currentProcess = i;
+              shortestRemainingTime = process.cputime - process.cpudone;
+            }
+          }
+
           process = (sProcess) processVector.elementAt(currentProcess);
+
+
           out.println("Process: " + currentProcess + " registered... (" + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.cpudone + ")");
-        }      
+        }
         if (process.ioblocking == process.ionext) {
           out.println("Process: " + currentProcess + " I/O blocked... (" + process.cputime + " " + process.ioblocking + " " + process.cpudone + " " + process.cpudone + ")");
           process.numblocked++;

@@ -5,16 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83d55eeb-93f2-467d-868f-e470ef624952" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OS_lab2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SchedulingAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/SchedulingAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summary-Processes" beforeDir="false" afterPath="$PROJECT_DIR$/Summary-Processes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summary-Results" beforeDir="false" afterPath="$PROJECT_DIR$/Summary-Results" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/COPYING.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/COPYING.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Common.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Process.class" beforeDir="false" afterPath="$PROJECT_DIR$/Process.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Results.class" beforeDir="false" afterPath="$PROJECT_DIR$/Results.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Scheduling.class" beforeDir="false" afterPath="$PROJECT_DIR$/Scheduling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/SchedulingAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/SchedulingAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/install_unix.html" beforeDir="false" afterPath="$PROJECT_DIR$/install_unix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/install_windows.html" beforeDir="false" afterPath="$PROJECT_DIR$/install_windows.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/sProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/sProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/sched.exe" beforeDir="false" afterPath="$PROJECT_DIR$/sched.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduling.conf" beforeDir="false" afterPath="$PROJECT_DIR$/scheduling.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_guide.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,34 +32,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ZR02oZxPKg4TghapiAIIni1SqD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "jbrsdk-17",
-    "last_opened_file_path": "C:/Users/megao/IdeaProjects/OS_lab2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbrsdk-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/megao/IdeaProjects/OS_lab2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\megao\TryOS_2" />
+      <recent name="C:\Users\megao\TryOS_2\include" />
       <recent name="C:\Users\megao\IdeaProjects\OS_lab2\include" />
     </key>
   </component>
@@ -64,6 +76,9 @@
       <option name="presentableId" value="Default" />
       <updated>1702369379733</updated>
       <workItem from="1702369380737" duration="3598000" />
+      <workItem from="1702410204609" duration="2490000" />
+      <workItem from="1702456433038" duration="24000" />
+      <workItem from="1702832169899" duration="3499000" />
     </task>
     <servers />
   </component>
